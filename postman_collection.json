@@ -1,0 +1,60 @@
+{
+  "info": {
+    "name": "RA2311056010001 Notification API",
+    "_postman_id": "8d7c93a6-bf24-4f3a-aaf3-f7f2db4f9dd0",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Notifications",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:4000/api/notifications",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "4000",
+          "path": ["api", "notifications"]
+        }
+      }
+    },
+    {
+      "name": "Create Notification",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Interview reminder\",\n  \"message\": \"Please join the technical round at 10:00 AM tomorrow.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:4000/api/notifications",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "4000",
+          "path": ["api", "notifications"]
+        }
+      }
+    },
+    {
+      "name": "Mark Notification As Read",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:4000/api/notifications/{{notificationId}}/read",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "4000",
+          "path": ["api", "notifications", "{{notificationId}}", "read"]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "n-1001",
+    "studentId": "student-101",
+    "type": "Event",
+    "message": "Orientation starts at 9 AM on Monday.",
+    "isRead": false,
+    "createdAt": "2026-05-01T09:00:00.000Z"
+  },
+  {
+    "id": "n-1002",
+    "studentId": "student-101",
+    "type": "Result",
+    "message": "Assessment result has been published.",
+    "isRead": false,
+    "createdAt": "2026-05-02T06:15:00.000Z"
+  }
+]

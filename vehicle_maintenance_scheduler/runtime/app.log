@@ -1,0 +1,44 @@
+2026-05-02T06:39:34.213Z [info] [config] Server started on port 4000 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:39:40.683Z [info] [middleware] Request started get /health | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:39:40.713Z [info] [middleware] Request finished get /health status=200 duration_ms=48 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:39:40.752Z [info] [middleware] Request started get / | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:39:40.784Z [info] [middleware] Request finished get / status=200 duration_ms=25 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:39:59.967Z [info] [middleware] Request started get / | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:39:59.991Z [info] [middleware] Request finished get / status=200 duration_ms=50 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:40:00.000Z [info] [middleware] Request started get /health | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:40:00.026Z [info] [middleware] Request finished get /health status=200 duration_ms=55 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:40:03.008Z [info] [middleware] Request started get / | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:40:03.034Z [info] [middleware] Request finished get / status=200 duration_ms=29 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:40:03.083Z [info] [middleware] Request started get /favicon.ico | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:40:03.107Z [info] [middleware] Request finished get /favicon.ico status=404 duration_ms=26 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:44:24.897Z [info] [middleware] Request started get / | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:44:24.923Z [info] [middleware] Request finished get / status=304 duration_ms=48 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:44:24.962Z [info] [middleware] Request started get /favicon.ico | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:44:24.986Z [info] [middleware] Request finished get /favicon.ico status=404 duration_ms=24 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:45:42.768Z [info] [middleware] Request started get /api/notifications | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:45:42.792Z [info] [middleware] Request finished get /api/notifications status=404 duration_ms=50 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:45:51.961Z [info] [middleware] Request started get /notifications | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:45:51.984Z [info] [controller] Notifications endpoint started | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:45:52.008Z [info] [service] Fetching all local notifications | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:45:52.035Z [debug] [repository] Fetching all notifications from repository | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:45:52.059Z [debug] [db] Reading notifications from runtime store | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:45:52.086Z [info] [db] Loaded 2 notifications from runtime store | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:45:52.109Z [info] [controller] Notifications endpoint completed | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:45:52.135Z [info] [middleware] Request finished get /notifications status=200 duration_ms=199 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:46:25.019Z [info] [middleware] Request started get /notifications/unread | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:46:25.046Z [info] [controller] Unread notifications endpoint started | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:46:25.071Z [info] [service] Fetching unread local notifications | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:46:25.094Z [debug] [repository] Fetching unread notifications from repository | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:46:25.117Z [debug] [db] Reading notifications from runtime store | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:46:25.143Z [info] [db] Loaded 2 notifications from runtime store | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:46:25.168Z [info] [controller] Unread notifications endpoint completed | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:46:25.192Z [info] [middleware] Request finished get /notifications/unread status=200 duration_ms=194 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:47:30.689Z [info] [middleware] Request started get /health | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:47:30.714Z [info] [middleware] Request finished get /health status=200 duration_ms=50 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:47:54.243Z [info] [middleware] Request started get /schedule | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:47:54.394Z [info] [controller] Schedule endpoint started | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:47:54.699Z [info] [service] Starting schedule generation | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:47:55.050Z [info] [service] Starting protected depot fetch | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:47:55.051Z [info] [service] Starting protected vehicle fetch | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:47:55.556Z [error] [handler] Request failed get /schedule message=Protected API request failed with status 401: {"message":"invalid authorization token"} | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
+2026-05-02T06:47:55.581Z [info] [middleware] Request finished get /schedule status=500 duration_ms=1503 | fallback=Log request failed with status 401: {"message":"invalid authorization token"}
