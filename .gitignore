@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.run/
+*.log
+package-lock.local.json
+vehicle_maintenance_scheduler/runtime/
+notification_app_be/
+notification_app_fe/
+screenshots/
+target/
+postman_collection.json

@@ -1,0 +1,13 @@
+{
+  "name": "ra2311056010001",
+  "private": true,
+  "workspaces": [
+    "logging_middleware",
+    "vehicle_maintenance_scheduler"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace vehicle_maintenance_scheduler",
+    "dev": "npm run dev --workspace vehicle_maintenance_scheduler",
+    "start": "npm run start --workspace vehicle_maintenance_scheduler"
+  }
+}
